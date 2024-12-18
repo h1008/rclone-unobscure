@@ -12,5 +12,4 @@ want to retrieve a password from the configuration for whatever reason.
 
 This little 5 line Go program will look for a rclone configuration in the
 standard locations (typically `~/.config/rclone/rclone.conf`), decode the
-passwords and print them. To use it, just clone the repository, run `go build`
-and execute the resulting `./rclone-unobscure` binary.
+passwords and print them. To use it, just clone the repository, run `go run *.go`.
